@@ -458,3 +458,56 @@
     font-weight: 700;
 }
 
+
+/* PRÉSENTATION NEW IF IT AIN'T ME */
+.hautprs {margin-top:20px; line-height:200%; margin-bottom:-20px;padding-left:50px;}
+.pseudo {background: var(--tcc); color:#FFF;
+  font-family: var(--tcf); font-weight:700; font-style:italic;
+  padding-top: 2px;padding-bottom: 2px;padding-left: 7px;padding-right: 7px;
+  text-transform: lowercase; font-size:24px}
+.fc {font-family: var(--ft);}
+img.icnprs {width:50px; height:50px; object-fit:cover; border-radius:100%;}
+
+
+.quoteprs {background: var(--tcc); color:#FFF;
+  font-family: var(--tcf); font-weight:700; font-style:italic;
+  padding-top: 2px;padding-bottom: 2px;padding-left: 27px;padding-right: 7px;
+  text-transform: lowercase; font-size:16px}
+
+
+.tableonglets span.ongletcont {
+  display: none;
+}
+.tableonglets input {
+  display: none;
+}
+.tableonglets input:checked + span.ongletcont {
+  display: block;
+}
+.tableonglets span.ongletcont {
+  width: 100%;
+  height: 150px;
+  padding: 5px;
+  overflow: auto;
+  background: var(--white);
+  text-align:justify;
+}
+.tableonglets label.onglet {
+  display: inline-block;
+  width: 48%;
+  margin: 0 3px;
+  text-align: center;
+  cursor: pointer;
+  font-family: var(--ft);
+  font-weight:800;
+  font-size:9px;
+  letter-spacing:1px;
+  background: var(--off-white);
+}
+
+
+ajpz {font-family:var(--ft); font-weight:800; font-size:13px; color:var(--color-3);}
+.therest {line-height:120%; font-size:11px; font-family:verdana;}
+
+.hautpl {padding:20px; border: 1px solid var(--off-white);margin-left:20px;margin-right:20px; line-height:110%;}
+.hautpl strong {font-size:11px; color: var(--black);}
